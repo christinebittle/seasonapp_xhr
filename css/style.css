@@ -1,0 +1,7 @@
+h1 {color:red; text-align:center;}
+
+
+figure{width:80%; margin: 0 auto;position:relative;}
+figure img {width: 100%;}
+.temp {padding:7px; position:absolute; top:0px; right:0px; background:#000000; color:#ffffff; font-size:40px;}
+.photographer{position:absolute; top:-20px; right:0px;}

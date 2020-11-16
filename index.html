@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+	</head>
+	<body>
+		<h1>Season App</h1>
+		
+		<label>Enter a temperature in C</label><input type="text" id="temp" />
+		<button onclick="GetSeason();">Click Me!</button>
+		
+		<div id="SeasonContainer" style="display:none;">
+			<p>The season is <span id="SeasonName"></span>!</p>
+			<figure>
+			    <figcaption class="photographer">
+			        <a href="" id="PhotoLink">Photo By : <span id="PhotographerName"></span></a>
+			    </figcaption>
+			    <figcaption class="temp"> <span id="Temperature"></span>&#8451;</figcaption>
+			    <img src="" alt="" id="Image" />
+			</figure>
+		</div>
+		
+		<script src="js/script.js">
+		</script>
+	</body>
+</html>
